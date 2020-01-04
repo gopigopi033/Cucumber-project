@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 626840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThonosHookMethod.bornonthonos()"
+            }
+          },
+          {
+            "result": {
+              "duration": 289311,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThonosHookMethod.beforesnaping()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To divide thonos stories",
+        "description": "",
+        "id": "thonos-story;to-divide-thonos-stories",
+        "after": [
+          {
+            "result": {
+              "duration": 646846,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThonosHookMethod.aftersnaping()"
+            }
+          },
+          {
+            "result": {
+              "duration": 825357,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThonosHookMethod.thonosdying()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 672958665,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "thonos has the infinity stones",
+            "match": {
+              "location": "HooksDefiniftions.thonos_has_the_infinity_stones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 669929,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "thonos snaps his fingers",
+            "match": {
+              "location": "HooksDefiniftions.thonos_snaps_his_fingers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 600166,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "half of the living things died",
+            "match": {
+              "location": "HooksDefiniftions.half_of_the_living_things_died()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Thonos story",
+    "description": "",
+    "id": "thonos-story",
+    "keyword": "Feature",
+    "uri": "Hooks.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Hooks"
+      }
+    ]
+  }
+]
